@@ -1,0 +1,27 @@
+{
+  "name": "duckdns-updater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitzzzu/duckdns-updater.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nitzzzu/duckdns-updater/issues"
+  },
+  "homepage": "https://github.com/nitzzzu/duckdns-updater#readme",
+  "dependencies": {
+    "node-schedule": "^1.3.0",
+    "node-windows": "^0.1.14",
+    "request": "^2.85.0",
+    "request-promise-native": "^1.0.5",
+    "winston": "^2.4.1"
+  }
+}
